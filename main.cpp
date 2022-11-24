@@ -22,9 +22,10 @@ int main() {
     while(n<2){
         cin>>n;
 
-        if(n<2)
+        if(n<2){
             cout<<"errore"<<endl;
-        else if(n>=2){
+            break;
+        }else if(n>=2){
             serie(n);
             break;
         }
