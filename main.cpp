@@ -16,6 +16,7 @@ void serie(int a){
         precedente=x;
     }
 }
+
 int main() {
     int n=0;
 
