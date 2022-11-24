@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-int serie(int a){
+void serie(int a){
     int risultato=1;
     int precedente=1;
     int x=0;
